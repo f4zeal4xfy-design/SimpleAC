@@ -1,0 +1,16 @@
+name: SimpleAC
+version: 1.0.0
+main: gr.simpleac.SimpleAC
+api-version: '1.21'
+description: Basic anti-cheat (fly, speed, reach, autoclicker)
+commands:
+  simpleac:
+    description: SimpleAC commands
+    usage: /simpleac <reload|alerts>
+permissions:
+  simpleac.alerts:
+    default: op
+  simpleac.admin:
+    default: op
+  simpleac.bypass:
+    default: false

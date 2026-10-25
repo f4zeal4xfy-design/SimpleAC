@@ -1,0 +1,21 @@
+# Violation level (VL) at which the player gets kicked
+kick-vl: 15
+# Every 10 seconds VL is multiplied by this value
+decay-multiplier: 0.8
+kick-message: "&cKicked by anti-cheat: &f%check%"
+alert-format: "&8[&cAC&8] &f%player% &7failed &c%check% &7(VL %vl%) &8%info%"
+
+checks:
+  fly:
+    enabled: true
+    max-hover-moves: 12
+    max-ascent: 1.7
+  speed:
+    enabled: true
+    max-horizontal: 0.75   # blocks per move event (walking/sprint-jump)
+  reach:
+    enabled: true
+    max-reach: 3.6
+  autoclicker:
+    enabled: true
+    max-cps: 20
